@@ -11,21 +11,22 @@ public class CopyFile {
             if (!source.exists()) {
                 throw new FileNotFoundException();
             }
-            else if (target.exists()) System.out.println("File Target da ton tai");
+//            else if (target.exists()) System.out.println("File Target da ton tai");
             else {
                 fileReader = new FileReader(source);
                 fileWriter = new FileWriter(target);
 
                 BufferedReader reader = new BufferedReader(fileReader);
 
-                String line;
-
-                while ((line = reader.readLine()) != null) {
+                int line;
+                int count=0;
+                while ((line = reader.read()) != -1) {
                     fileWriter.write(line);
-                    fileWriter.write("\n");
+                    count++;
+                    System.out.println(line);
                 }
 
-                System.out.println("Sao chep thanh cong");
+                System.out.println("Sao chep "+count+" ky tu thanh cong");
             }
         } catch (FileNotFoundException e) {
             System.out.println("File Source khong ton tai.");

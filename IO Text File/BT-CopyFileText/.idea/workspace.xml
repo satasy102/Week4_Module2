@@ -20,20 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2512d3c1-273c-4721-b91f-5693e8d192f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/BT-CopyFileText.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/out/production/BT-CopyFileText/CopyFileText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../IO Binary File va Serialization/TH-CopyFileText/src/CopyFileText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BT-CopyFileText/CopyFileText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CopyFileText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional-TH-TinhTongCacSoTrongFileText/src/ReadFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Optional-TH-TinhTongCacSoTrongFileText/src/ReadFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BT-CopyFileText/CopyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BT-CopyFileText/CopyFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598423040381</updated>
       <workItem from="1598423043505" duration="1339000" />
+      <workItem from="1598424925139" duration="995000" />
     </task>
     <servers />
   </component>
@@ -122,6 +116,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -131,22 +126,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598424399349" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598424400224">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1598425925375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598424400224" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598424400224">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1598425925375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598424400224" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598424400224">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1598425925375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598424400224" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598424400224">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1598425925375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598424400224" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598425925375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1598425925375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1598425925375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1598425925375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598425925375" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1598423174772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
