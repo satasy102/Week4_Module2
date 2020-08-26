@@ -4,6 +4,7 @@ public class ReadFileExample {
     public static void main(String[] args) {
         try {
             File inFile=new File("Number.txt");
+
             if(!inFile.exists()) throw new FileNotFoundException();
             FileReader fileReader=new FileReader(inFile);
             BufferedReader reader=new BufferedReader(fileReader);

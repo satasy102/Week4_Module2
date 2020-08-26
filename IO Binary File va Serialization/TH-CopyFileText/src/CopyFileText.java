@@ -25,7 +25,6 @@ public class CopyFileText {
                     oS.write(buffer);
                 }
 
-
                 System.out.println("File is copied successful!");
             }
         } catch (IOException e) {
