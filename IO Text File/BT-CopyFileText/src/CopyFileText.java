@@ -18,14 +18,8 @@ public class CopyFileText {
 
                 iS = new FileInputStream(source);
                 oS = new FileOutputStream(target);
-//                Scanner sc = new Scanner(iS);
-//                int count = 0;
-//                while (sc.hasNextByte()) {
-//                    sc.nextByte();
-//                    count++;
-//                }
 
-                byte[] buffer = new byte[1024];
+                byte[] buffer = new byte[iS.available()];
 
                 while (iS.read(buffer) > 0) {
                     oS.write(buffer);
@@ -42,5 +36,13 @@ public class CopyFileText {
             if (oS != null) oS.close();
 
         }
+
+        Scanner sc = new Scanner(String.valueOf(oS));
+        StringBuilder data = new StringBuilder();
+        while (sc.hasNextLine()) {
+            data.append(sc.nextLine());
+        }
+        System.out.println("Has " + data.length() + " chars in file");
+
     }
 }
