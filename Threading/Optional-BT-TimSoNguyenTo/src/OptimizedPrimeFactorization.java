@@ -1,5 +1,5 @@
 public class OptimizedPrimeFactorization implements Runnable {
-    private int num;
+    private final int num;
 
     public OptimizedPrimeFactorization(int num) {
         this.num = num;
@@ -16,6 +16,7 @@ public class OptimizedPrimeFactorization implements Runnable {
                     break;
                 } check=true;
             }
+            
             if(check) System.out.println("OPF " + i);
         }
     }

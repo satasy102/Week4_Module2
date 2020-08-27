@@ -1,5 +1,5 @@
 public class LazyPrimeFactorization implements Runnable{
-    private int num;
+    private final int num;
 
     public LazyPrimeFactorization(int num) {
         this.num = num;
